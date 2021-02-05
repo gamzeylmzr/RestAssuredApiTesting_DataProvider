@@ -20,9 +20,9 @@ public class Test2_Post_Request {
         JSONObject requestParams=new JSONObject();
         requestParams.put("FirstName","Gamze");
         requestParams.put("LastName","Y");
-        requestParams.put("UserName","Gseaya");
+        requestParams.put("UserName","Gamze");
         requestParams.put("Password","12345");
-        requestParams.put("Email","gy@havelsan.com.tr");
+        requestParams.put("Email","gy@example.com.tr");
 
         httpRequest.header("Content type is","application/json");
 
